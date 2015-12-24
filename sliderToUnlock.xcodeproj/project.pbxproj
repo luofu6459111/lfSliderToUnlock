@@ -12,7 +12,6 @@
 		8401DC821C2A95DB00AB6BD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401DC811C2A95DB00AB6BD6 /* ViewController.m */; };
 		8401DC851C2A95DB00AB6BD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401DC831C2A95DB00AB6BD6 /* Main.storyboard */; };
 		8401DC871C2A95DB00AB6BD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8401DC861C2A95DB00AB6BD6 /* Assets.xcassets */; };
-		8401DC8A1C2A95DB00AB6BD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8401DC881C2A95DB00AB6BD6 /* LaunchScreen.storyboard */; };
 		8401DC951C2A95DB00AB6BD6 /* sliderToUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401DC941C2A95DB00AB6BD6 /* sliderToUnlockTests.m */; };
 		8401DCA01C2A95DB00AB6BD6 /* sliderToUnlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401DC9F1C2A95DB00AB6BD6 /* sliderToUnlockUITests.m */; };
 		8401DCB01C2A985100AB6BD6 /* LfSliderUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8401DCAF1C2A985100AB6BD6 /* LfSliderUnlockView.m */; };
@@ -44,7 +43,6 @@
 		8401DC811C2A95DB00AB6BD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8401DC841C2A95DB00AB6BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8401DC861C2A95DB00AB6BD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8401DC891C2A95DB00AB6BD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8401DC8B1C2A95DB00AB6BD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8401DC901C2A95DB00AB6BD6 /* sliderToUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sliderToUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8401DC941C2A95DB00AB6BD6 /* sliderToUnlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sliderToUnlockTests.m; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				8401DC811C2A95DB00AB6BD6 /* ViewController.m */,
 				8401DC831C2A95DB00AB6BD6 /* Main.storyboard */,
 				8401DC861C2A95DB00AB6BD6 /* Assets.xcassets */,
-				8401DC881C2A95DB00AB6BD6 /* LaunchScreen.storyboard */,
 				8401DC8B1C2A95DB00AB6BD6 /* Info.plist */,
 				8401DC7A1C2A95DB00AB6BD6 /* Supporting Files */,
 			);
@@ -220,7 +217,6 @@
 				TargetAttributes = {
 					8401DC761C2A95DB00AB6BD6 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = P6LCGC9VU2;
 					};
 					8401DC8F1C2A95DB00AB6BD6 = {
 						CreatedOnToolsVersion = 7.2;
@@ -257,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8401DC8A1C2A95DB00AB6BD6 /* LaunchScreen.storyboard in Resources */,
 				8401DC871C2A95DB00AB6BD6 /* Assets.xcassets in Resources */,
 				8401DC851C2A95DB00AB6BD6 /* Main.storyboard in Resources */,
 			);
@@ -331,14 +326,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8401DC881C2A95DB00AB6BD6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8401DC891C2A95DB00AB6BD6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -378,7 +365,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +403,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -430,6 +417,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = sliderToUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IOS--.sliderToUnlock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,6 +430,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = sliderToUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "IOS--.sliderToUnlock";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -506,7 +495,7 @@
 				8401DCA31C2A95DB00AB6BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8401DCA41C2A95DB00AB6BD6 /* Build configuration list for PBXNativeTarget "sliderToUnlock" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +504,7 @@
 				8401DCA61C2A95DB00AB6BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		8401DCA71C2A95DB00AB6BD6 /* Build configuration list for PBXNativeTarget "sliderToUnlockTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +513,7 @@
 				8401DCA91C2A95DB00AB6BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 		8401DCAA1C2A95DB00AB6BD6 /* Build configuration list for PBXNativeTarget "sliderToUnlockUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +522,7 @@
 				8401DCAC1C2A95DB00AB6BD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
